@@ -263,6 +263,9 @@ body{
     align-items: center;
     margin-top: 83px;
 }
+.pricing__inner a{
+    text-decoration: none;
+}
 .pricing__card__changiable{
     margin: 0 auto;
 }
