@@ -206,4 +206,156 @@ body{
     margin-right: auto;
 }
 
+/* About */
+.about{
+    padding-top: 252px;
+}
+.about__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.about__info{
+    margin-top: 30px;
+    width: 670px;
+}
+.about__info .section__title{
+    text-align: left;
+}
+.about__text{
+    font: 400 20px/30px 'Poppins';
+    margin-top: 23px;
+    color: #8F95A5;
+
+}
+.about__info__state{
+    display: flex;
+    margin-top:40px;
+}
+.state__changiable{
+    margin: 0 119px 0 163px;
+}
+
+.state .section__title{
+    text-align: center;
+}
+.number{
+    color: #2A3246;
+}
+.number__text{
+    margin:0;
+    text-align: center;
+}
+
+/* Pricing */
+.pricing{
+    padding-top: 188px;
+}
+.pricing__inner{
+    display: flex;
+    align-items: center;
+    margin-top: 83px;
+}
+.pricing__card__changiable{
+    margin: 0 auto;
+}
+.pricing__img{
+    text-align: center;
+}
+.pricing__title{
+    font: 600 30px/48px 'Poppins';
+    color:#263238;
+    margin-top: 40px;
+}
+
+#pricing__title__changiable{
+    margin-top:60px;
+}
+.pricing__title__changiable3{
+    margin-top: 11px;
+}
+.pricing__text{
+    margin-top: 19px;
+    width: 418px;
+}
+.pricing__text__changiable{
+    margin-top: 23px;
+}
+.price__box{
+    display: inline-block;
+    font: 400 18px/27px 'Poppins';
+    padding: 0 18px;
+    margin-top: 29px;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    color: #546269;
+
+}
+.price__box__changiable{
+    margin-top:60px;
+}
+.price{
+    font: 400 30px/45px 'Poppins';
+    color:#263238;
+    vertical-align: middle;
+}
+
+/* Contact Us */
+.contact{
+    padding-top: 261px;
+}
+.contact__inner{
+    display: flex;
+}
+.contact__inner .about__info{
+    width: 776px;
+    margin-left: auto;
+}
+.contact__text{
+    margin-top: 37px;
+}
+.contact form{
+    margin-top: 52px;
+}
+.contact form input{
+    font: 400 16px/24px 'Poppins';
+    padding: 26px 33px;
+   width: 480px;
+   height: 80px;
+   border: 1px solid #8F95A5;
+   outline: none;
+   border-radius: 10px;
+   color: #8F95A5;
+   margin-right: 12px;
+}
+.button{
+    font: 500 20px/30px 'Poppins';
+    padding: 25px 81px;
+    background-color:#263238;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer{
+    padding: 133px 0 64px 0;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color:#C4C4C4;
+    margin-bottom: 31px;
+}
+.footer__links{
+    margin-left: auto;
+}
+.footer__link{
+    font: 400 24px/36px 'Poppins';
+    color: #8F95A5;
+    text-decoration: none;
+}
+
+
 
