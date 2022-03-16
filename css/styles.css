@@ -34,6 +34,7 @@
 body{
     font-family: 'Poppins';
     font-size: 16px;
+    background-color: #fff;
 }
 .container{
     max-width: 1338px;
@@ -137,7 +138,7 @@ body{
     background-color:#F5F5F5;
     width: 435px;
     border-radius: 10px;
-    padding-bottom: 92px;
+    padding-bottom:80px;
 }
 .skills__card1.card__image{
     margin: 35px 22px 0 22px;
@@ -163,7 +164,7 @@ body{
     background-color: #263238;
     color: #fff;
     text-decoration: none;
-    margin-top: 36px;
+    margin-top:46px;
 }
 .skills__card2{
     margin-left: 18px;
@@ -198,12 +199,19 @@ body{
     display: flex;
     width: 885px;
     margin-top:20px;
-    padding: 44px 29px 44px 48px;
+    padding: 44px 25px 44px 48px;
 }
 .skills__card--end .skills__card__info{
     width: 400px;
     padding: 0;
     margin-right: auto;
+}
+.end__title,
+.end__text{
+    margin: 0;
+}
+.btn__end{
+    margin-top: 25px;
 }
 
 /* About */
@@ -268,7 +276,7 @@ body{
 }
 
 #pricing__title__changiable{
-    margin-top:60px;
+    margin-top:70px;
 }
 .pricing__title__changiable3{
     margin-top: 11px;
