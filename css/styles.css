@@ -1,8 +1,120 @@
 /* Fonts */
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
 /* General styles */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+.container{
+    max-width: 1338px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header */
+.header{
+    position: fixed;
+    width: 100%;
+    padding-top:55px;
+    background-color:#fff;
+    z-index: 10;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.list{
+    display: inline-block;
+    margin-left: 217px;
+}
+.list__item{
+    display: inline-block;
+    list-style-type: none;
+}
+.list__link{
+    font: 500 20px/30px 'Poppins';
+    text-decoration: none;
+    text-transform:capitalize;
+    margin-left: 36px;
+    color: #263238;
+}
+.header__btn{
+    font: 400 24px/36px 'Poppins';
+    padding: 17px 57px;
+    margin-left: auto;
+    border: 2px solid #263238;
+    border-radius: 5px;
+    color: #000;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero{
+    padding-top:200px;
+}
+.hero__inner{
+    display: flex;
+    align-items: center;
+}
+.hero__info{
+    position: relative;
+    width: 632px;
+}
+.hero__title{
+    display: inline-block;
+    font: 600 64px/80px 'Poppins';
+    width: 386px;
+}
+.lamp{
+    position: absolute;
+    left:424px;
+    top: 92px;
+}
+.hero__text{
+    font: 400 24px/36px 'Poppins';
+    margin-top: 40px;
+    width: 523px;
+    color: #8F95A5;
+}
+.hero__btn{
+    display: inline-block;
+    font: 400 36px/54px 'Poppins';
+    padding: 32px 117px;
+    margin-top: 61px;
+    background-color:#263238;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
