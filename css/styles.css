@@ -40,6 +40,14 @@ body{
     width: 100%;
     margin: 0 auto;
 }
+.section__title{
+    font: 600 48px/80px 'Poppins';
+    color: #000;
+    text-align: center;
+}
+.liquid{
+    margin-left: 18px;
+}
 
 /* Header */
 .header{
@@ -117,4 +125,85 @@ body{
     color: #fff;
     text-decoration: none;
 }
+/* Skills */
+.skills{
+    padding-top: 103px;
+}
+.skills__inner{
+    display: flex;
+    margin-top: 92px;
+}
+.skills__card1{
+    background-color:#F5F5F5;
+    width: 435px;
+    border-radius: 10px;
+    padding-bottom: 92px;
+}
+.skills__card1.card__image{
+    margin: 35px 22px 0 22px;
+}
+.skills__card__info{
+    padding: 0 43px 0 43px;
+}
+.skills__card__title{
+    font: 600 30px/80px 'Poppins';
+    margin-top: 4px;
+    color: #263238;
+}
+.skills__card__text{
+    font: 400 16px/24px 'Poppins';
+    color: #8F95A5;
+    margin-top: 5px;
+}
+.skills__card__btn{
+    display: inline-block;
+    font: 500 18px/27px 'Poppins';
+    padding: 17px 63px;
+    border-radius: 5px;
+    background-color: #263238;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 36px;
+}
+.skills__card2{
+    margin-left: 18px;
+}
+.skills__card2__inner{
+    display: flex;
+}
+.skills__card__inner--2{
+    padding-bottom: 44px;
+}
+.skills__card__inner--2 .skills__card__info{
+    margin-top: -42px;
+}
+.skills__card__inner--2 .card__image{
+    margin: 4px 19px 0 120px;
+}
+.skills__card__inner--2 .skills__card__title,
+.skills__card__inner--2 .skills__card__text{
+    margin-top: 0;
+}
+.skills__card__inner--2 .skills__card__btn{
+    margin-top: 33px;
+}
+.liquid .card__image{
+    margin:9px 63px 0 0px;
+}
+.liquid .skills__card__info{
+    margin-top: 0;
+    padding: 0 0 0 43px;
+}
+.skills__card--end{
+    display: flex;
+    width: 885px;
+    margin-top:20px;
+    padding: 44px 29px 44px 48px;
+}
+.skills__card--end .skills__card__info{
+    width: 400px;
+    padding: 0;
+    margin-right: auto;
+}
+
 
